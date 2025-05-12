@@ -190,13 +190,13 @@ class Teste {
 
 ---
 
-### **7. Exemplo Combinado: Interface com Todos os Componentes**  
-### **Adaptação do Exemplo Combinado para rodar no Visual Studio Code (VSCode)**  
+### **7. Exemplo Combinado: Interface com todos os componentes**  
+### **Adaptação do exemplo para rodar no Visual Studio Code (VSCode)**  
 Vamos reorganizar o exemplo combinado em **arquivos separados** para facilitar a execução no VSCode. Cada classe/interface será salva em seu próprio arquivo, seguindo as boas práticas do Java.
 
 ---
 
-### **Passo 1: Estrutura de Pastas e Arquivos**  
+### **Passo 1: Estrutura de pastas e arquivos**  
 Crie uma pasta para o projeto (ex: `InterfaceExemplo`) e dentro dela adicione os seguintes arquivos:  
 ```
 InterfaceExemplo/  
@@ -207,7 +207,7 @@ InterfaceExemplo/
 
 ---
 
-### **Passo 2: Código em Arquivos Separados**  
+### **Passo 2: Código em arquivos separados**  
 
 #### **Arquivo 1: `Sistema.java`**  
 ```java
@@ -264,7 +264,7 @@ public class TesteSistema {
 
 ---
 
-### **Passo 3: Como Executar no VSCode**  
+### **Passo 3: Como executar no VSCode**  
 1. **Abra o VSCode** e selecione a pasta `InterfaceExemplo`.  
 2. **Instale o JDK** (se ainda não tiver):  
    - Recomendado: [OpenJDK](https://adoptium.net/pt-BR/temurin/releases/?version=17) (versão 17).  
@@ -288,7 +288,7 @@ public class TesteSistema {
 
 ---
 
-### **Saída Esperada no Terminal**  
+### **Saída esperada no terminal**  
 ```
 Aplicação iniciada!  
 Validando sistema...  
@@ -300,7 +300,7 @@ Versão do sistema: 1
 
 ---
 
-### **Explicação do Funcionamento**  
+### **Explicação do funcionamento**  
 1. **Método Abstrato (`iniciar`):**  
    - A classe `Aplicacao` implementa `iniciar()` e chama `log("Sistema iniciado")`.  
 
@@ -316,7 +316,7 @@ Versão do sistema: 1
 ---
 
 
-### **8. Boas Práticas com Interfaces**  
+### **8. Boas práticas com Interfaces**  
 1. **Use métodos abstratos para definir contratos obrigatórios.**  
 2. **Evite sobrecarregar interfaces com muitos métodos default.**  
 3. **Use constantes para valores fixos, mas prefira enums quando aplicável.**  
